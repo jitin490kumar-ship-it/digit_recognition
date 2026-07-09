@@ -9,7 +9,7 @@ st.title("Digit Recognition using CNN (MNIST)")
 st.write("Upload an image of a handwritten digit (28x28 grayscale).")
 
 # Load trained model
-model = tf.keras.models.load_model("mnist_cnn.h5")
+model = tf.keras.models.load_model("digit_recognition.h5")
 
 # Upload image
 uploaded_file = st.file_uploader(
